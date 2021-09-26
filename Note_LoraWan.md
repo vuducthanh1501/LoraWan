@@ -175,7 +175,7 @@ Khi một phản hồi được gửi đi, máy chủ mạng sẽ nhận phản 
 
 - LoRa hoạt động trong băng tần vô tuyến ISM (Industrial, Scientific and Medical) không được cấp phép có sẵn trên toàn thế giới. 
 
-<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/ISM_Band.png"></div>
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/ISM-Band.png"></div>
 
 - Tại Hoa Kỳ, LoRaWAN hoạt động trong dải tần 902-928 MHz. 
 
