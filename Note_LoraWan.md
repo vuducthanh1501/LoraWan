@@ -1,6 +1,7 @@
 # Tổng quan về LoraWan 
 Danh mục tìm hiểu:
-- [INTERNET OF THINGS](#IOT)
+- [INTERNET OF THINGS](#IOT) 
+- [LPWAN](#LPW)
 
 <a name="IOT"></a>
 ## INTERNET OF THINGS 
@@ -15,19 +16,19 @@ Danh mục tìm hiểu:
 - Giao tiếp di động 
 - Giao tiếp LPWA 
 
-
+<a name="LPW"></a>
 ## LPWAN 
 
 - LPWAN là viết tắt của Low Power Wide Area Network và loại giao tiếp không dây này được thiết kế để gửi các gói dữ liệu nhỏ ở khoảng cách xa, hoạt động bằng pin. 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LPWAN.png"></div>  
 
-
+<a name="IOT"></a>
 ## WIRELESS COMMUNICATION COMPARISON
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Comparison.png"></div> 
 
-
+<a name="LR"></a>
 ## LORA RANGE 
 
 - Phạm vi giữa người gửi và người nhận LoRa phụ thuộc vào môi trường thiết bị hoạt động. Phạm vi phủ sóng trong nhà phần lớn phụ thuộc vào loại vật liệu xây dựng được sử dụng. 
@@ -41,6 +42,7 @@ Andreas Spiess, kết nối đất với mặt đất: 212 km (= 131,73 dặm)
 
 Kết nối khí cầu thời tiết với mặt đất: 702,67 km (= 436,61 dặm) 
 
+<a name="IOT"></a>
 ## MỘT SỐ TRƯỜNG HỢP SỬ DỤNG NGHỆ LORA (FEW USE CASES USING LORA TECHNOLOGY)
 
 **- Tiện ích thông minh (Smart utilities)**
@@ -56,7 +58,7 @@ Giám sát nhiệt độ / độ ẩm
 Kiểm soát môi trường  
 Quản lý chất thải (giám sát mức chất thải trong thùng chất thải)  
 
-
+<a name="IOT"></a>
 ## MỘT SỐ TRƯỜNG HỢP SỬ DỤNG SỬ DỤNG CÔNG NGHỆ LORA(FEW USE CASES USING LORA TECHNOLOGY) 
 
 **• Sự an toàn (Safety)**
@@ -76,12 +78,14 @@ Quản lý đội xe (ví dụ: theo dõi ô tô, xe tải, v.v.)
 Giám sát phúc lợi động vật  
 Giám sát điều kiện phát triển của cây trồng  
 
+<a name="IOT"></a>
 ## LORA 
 
 - LoRa là từ viết tắt của Long Range và nó là một công nghệ không dây trong đó người gửi có công suất thấp truyền các gói dữ liệu nhỏ (0,3 kbps đến 5,5 kbps) đến người nhận trong một khoảng cách xa. 
 
 - Một cổng có thể xử lý hàng trăm thiết bị cùng một lúc 
 
+<a name="IOT"></a>
 ## LORA END NODE 
 
 - Một nút kết thúc LoRa bao gồm 2 phần: 
@@ -94,7 +98,7 @@ Giám sát điều kiện phát triển của cây trồng
 Nếu thiết bị này cũng có cảm biến, thiết bị này hoạt động như một cảm biến từ xa.
 Một thiết bị như vậy được gọi là remote. 
 
-
+<a name="IOT"></a>
 ## LORA GATEWAY 
 
 - Cổng LoRa bao gồm 2 phần:  
@@ -105,7 +109,7 @@ Một thiết bị như vậy được gọi là remote.
 • Nhiều cổng có thể nhận dữ liệu từ cùng một nút kết thúc.  
 • Các cổng có thể nghe nhiều tần số đồng thời,trong mọi hệ số lan truyền ở mỗi tần số.  
 
-
+<a name="IOT"></a>
 ## LORAWAN NETWORK 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LoraWan_Network.png"></div> 
@@ -113,13 +117,13 @@ Một thiết bị như vậy được gọi là remote.
 - LoRaWAN network architecture is deployed in a star topology.  
 - The communication between the end node and gateway is bidirectional which means the end node can send data to the gateway but it can also receive data from the gateway.  
 
-
+<a name="IOT"></a>
 ## UPLINK AND DOWNLINK 
 
 - When an end node transmits data to the gateway it is called an uplink. 
 - When the gateway transmits data to the end node it is called a downlink. 
 
-
+<a name="IOT"></a>
 ## LORAWAN HOẠT ĐỘNG NHƯ THẾ NÀO 
 
 - Một nút cuối phát dữ liệu của nó tới mọi cổng trong vùng lân cận của nó. 
@@ -129,23 +133,24 @@ Một thiết bị như vậy được gọi là remote.
 - Tùy chọn máy chủ ứng dụng có thể gửi phản hồi trở lại nút cuối. 
 Khi một phản hồi được gửi đi, máy chủ mạng sẽ nhận phản hồi và xác định cổng nào sẽ sử dụng để phát phản hồi trở lại nút cuối. 
 
-
+<a name="IOT"></a>
 ## GIAO TIẾP TRỰC TIẾP GIỮA CÁC THIẾT BỊ LORA 
 
 - Giao thức LoRaWAN không hỗ trợ giao tiếp trực tiếp giữa các nút cuối. 
 - Nếu bạn muốn giao tiếp trực tiếp giữa các thiết bị LoRa mà không cần sử dụng cổng, hãy sử dụng thư viện RadioHead Packet Radio dành cho bộ vi xử lý nhúng. Nó cung cấp một thư viện hướng đối tượng hoàn chỉnh để gửi và nhận các tin nhắn có kích thước gói thông qua nhiều loại radio như LoRa trên một loạt các bộ vi xử lý nhúng. 
-- 
 
+<a name="IOT"></a>
 ## LORA PROTOCOL STACK 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LoraWan_protocol.png"></div> 
 
+<a name="IOT"></a>
 ## LORA ALLIANCE 
 
 - Các giao thức LoRaWAN được xác định bởi LoRa Alliance. 
 - Đây là một tổ chức phi lợi nhuận của hơn 500 công ty thành viên, cam kết cho phép triển khai LPWAN IoT trên quy mô lớn thông qua việc phát triển và quảng bá tiêu chuẩn mở LoRaWAN. 
 
-
+<a name="IOT"></a>
 ## ISM BAND 
 
 - LoRa hoạt động trong băng tần vô tuyến ISM (Industrial, Scientific and Medical) không được cấp phép có sẵn trên toàn thế giới. 
@@ -166,6 +171,7 @@ Khi một phản hồi được gửi đi, máy chủ mạng sẽ nhận phản 
 • Tốc độ dữ liệu thấp. 
 • Rất nhiều nhiễu vì bất kỳ ai cũng có thể sử dụng các tần số này. 
 
+<a name="E"></a>
 ## ETSI VÀ FCC 
 
 - Bởi vì băng tần ISM có thể được sử dụng bởi tất cả mọi người, phải có một số quy tắc được đặt ra nếu không băng tần này sẽ trở nên không sử dụng được. Hãy nghĩ đến nhiều tín hiệu gây nhiễu. 
@@ -183,12 +189,12 @@ Ngoại trừ Nhật Bản, họ có Trung tâm Kỹ thuật Viễn thông (TELE
 
 - Cơ quan quản lý này đã ban hành các điều kiện và yêu cầu khi sử dụng LoRa ở Hà Lan và dựa trên các tiêu chuẩn do ETSI đặt ra.  
 
-
+<a naA"></a>
 ## ORGANISATIONS AND REGULATORY AUTHORITIES 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Orangnisation.png"></div> 
 
-
+<a name="IBADC"></a>
 ## ISM BAND AND DUTY CYCLE 
 
 - Ví dụ: ở Châu Âu khi sử dụng các tần số băng tần ISM (863 MHz - 870 MHz), người dùng phải tuân thủ các quy tắc sau: 
@@ -199,12 +205,14 @@ Ngoại trừ Nhật Bản, họ có Trung tâm Kỹ thuật Viễn thông (TELE
 
 - Bên cạnh các quy tắc về băng tần ISM này, nhà khai thác mạng (ví dụ: The Things Network) cũng có thể thêm các hạn chế bổ sung. 
 
+<a name="TTN"></a>
 ## THE THINGS NETWORK (TTN) FAIR USE 
 
 • Nếu bạn sử dụng The Things Network (mạng LoRaWAN cộng đồng công cộng miễn phí) chính sách sử dụng hợp lý sau sẽ được áp dụng: 
 • Thời gian phát sóng của đường lên được giới hạn trong 30 giây mỗi ngày (24 giờ) cho mỗi nút. 
 • Các thông báo đường xuống được giới hạn ở 10 thông báo mỗi ngày (24 giờ) cho mỗi nút. 
 
+<a name="TOA"></a>
 ## TIME ON AIR 
 
 • Thời gian trực tuyến (ToA) là khoảng thời gian ăng-ten của máy phát được cấp năng lượng và truyền dữ liệu. 
@@ -212,19 +220,21 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Time_on_air.png"></div> 
 
+<a name></a>
 ## DUTY CYCLE 
 
 • Chu kỳ làm việc là tỷ lệ thời gian trong đó một bộ phận, thiết bị hoặc hệ thống được vận hành. Chu kỳ làm việc có thể được biểu thị dưới dạng tỷ lệ hoặc phần trăm. 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/duty%20cycle.png"></div> 
 
-
+<a name="LDC"></a>
 ## LORAWAN DEVICE CLASSES 
 
 • The LoRaWAN specification [4] defines three device classes: 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Class.png"></div>
 
+<a name></a>
 ### CLASS A 
 
 - Tại bất kỳ thời điểm nào, một nút kết thúc có thể phát tín hiệu. Sau quá trình truyền uplink 
@@ -234,6 +244,7 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/class%20A.png"></div> 
 
+<a name="CB"></a>
 ### CLASS B 
 
 - Ngoài các slot nhận Class A, các thiết bị Class B mở thêm các slot nhận vào các thời điểm đã lên lịch. 
@@ -242,6 +253,7 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Class%20B.png"></div> 
 
+<a name="CC"></a>
 ### CLASS C 
 
 - Ngoài các khe nhận class A, một thiết bị class C sẽ lắng nghe liên tục các phản hồi từ gateway. 
