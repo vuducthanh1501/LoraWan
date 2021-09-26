@@ -17,7 +17,7 @@ Internet, chẳng hạn như:
 dây này được thiết kế để gửi các gói dữ liệu nhỏ ở khoảng cách xa, hoạt 
 động bằng pin. 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/Documents/blob/main/Image/1.png"></div>  
 
 ## WIRELESS COMMUNICATION 
 
@@ -204,6 +204,40 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 • Chu kỳ làm việc là tỷ lệ thời gian trong đó một bộ phận, thiết bị hoặc hệ thống được vận hành. Chu kỳ làm việc có thể được biểu thị dưới dạng tỷ lệ hoặc phần trăm. 
 
 <img> 
+
+
+## LORAWAN DEVICE CLASSES 
+
+• The LoRaWAN specification [4] defines three device classes: 
+
+<img> 
+
+### CLASS A 
+
+• Tại bất kỳ thời điểm nào, một nút kết thúc có thể phát tín hiệu. Sau quá trình truyền uplink 
+(tx), nút cuối sẽ lắng nghe phản hồi từ cổng kết nối. 
+• Nút cuối mở 2 khe nhận tại t1 và t2 vài giây sau khi truyền tải đường lên. Cổng có thể phản hồi trong khe nhận đầu tiên hoặc khe nhận thứ hai, nhưng không phải cả hai. 
+• Class B và C cũng phải hỗ trợ chức năng class A. 
+
+<img> 
+
+### CLASS B 
+
+• Ngoài các slot nhận Class A, các thiết bị Class B mở thêm các slot nhận vào các thời điểm đã lên lịch. 
+• Nút cuối nhận được một báo hiệu được đồng bộ hóa thời gian từ gateway, cho phép cổng kết nối biết khi nào nút đang lắng nghe. 
+• Class B không hỗ trợ chức năng của thiết bị C. 
+
+<img> 
+
+### CLASS C 
+
+• Ngoài các khe nhận class A, một thiết bị class C sẽ lắng nghe liên tục các phản hồi từ gateway. 
+• Thiết bị class C không hỗ trợ chức năng của thiết bị B. 
+
+<img> 
+
+
+
 
 
 
