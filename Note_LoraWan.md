@@ -15,11 +15,11 @@
 dây này được thiết kế để gửi các gói dữ liệu nhỏ ở khoảng cách xa, hoạt 
 động bằng pin. 
 
-<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Lora%20range.png"></div>  
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LPWAN.png"></div>  
 
 ## WIRELESS COMMUNICATION 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Comparison.png"></div> 
 
 ## LORA RANGE 
 
