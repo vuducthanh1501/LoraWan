@@ -4,15 +4,15 @@ Danh mục tìm hiểu:
 - [LPWAN](#LPW)
 - [WIRELESS COMMUNICATION COMPARISON](#WCC)
 - [LORA RANGE](#LR)
-- [FEW USE CASES USING LORA TECHNOLOGY](#)
-- [LORA](#)
-- [LORA END NODE](#)
+- [FEW USE CASES USING LORA TECHNOLOGY](#FU)
+- [LORA](#LO)
+- [LORA END NODE](#LEN)
 - [LORA GATEWAY](#LG)
-- [LORAWAN NETWORK](#)
-- [UPLINK AND DOWNLINK](#)
-- [LORAWAN HOẠT ĐỘNG NHƯ THẾ NÀO](#)
+- [LORAWAN NETWORK](#LN)
+- [UPLINK AND DOWNLINK](#UAD)
+- [LORAWAN HOẠT ĐỘNG NHƯ THẾ NÀO](#LHD)
 - [GIAO TIẾP TRỰC TIẾP GIỮA CÁC THIẾT BỊ LORA](#)
-- [LORA PROTOCOL STACK](#)
+- [LORA PROTOCOL STACK](#LPS)
 - [LORA ALLIANCE](#LA)
 - [ISM BAND](#IB)
 - [ETSI VÀ FCC](#E)
@@ -65,7 +65,7 @@ Andreas Spiess, kết nối đất với mặt đất: 212 km (= 131,73 dặm)
 
 Kết nối khí cầu thời tiết với mặt đất: 702,67 km (= 436,61 dặm) 
 
-<a name="M"></a>
+<a name="FU"></a>
 ## MỘT SỐ TRƯỜNG HỢP SỬ DỤNG NGHỆ LORA (FEW USE CASES USING LORA TECHNOLOGY)
 
 **- Tiện ích thông minh (Smart utilities)**
