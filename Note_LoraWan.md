@@ -240,7 +240,7 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Time_on_air.png"></div> 
 
-<a name"DC"></a>
+<a name="DC"></a>
 ## DUTY CYCLE 
 
 • Chu kỳ làm việc là tỷ lệ thời gian trong đó một bộ phận, thiết bị hoặc hệ thống được vận hành. Chu kỳ làm việc có thể được biểu thị dưới dạng tỷ lệ hoặc phần trăm. 
@@ -254,7 +254,7 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Class.png"></div>
 
-<a name"CA"></a>
+<a name="CA"></a>
 ### CLASS A 
 
 - Tại bất kỳ thời điểm nào, một nút kết thúc có thể phát tín hiệu. Sau quá trình truyền uplink 
