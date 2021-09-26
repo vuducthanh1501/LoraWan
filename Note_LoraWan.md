@@ -79,7 +79,7 @@ Giám sát điều kiện phát triển của cây trồng
 
 - Một cổng có thể xử lý hàng trăm thiết bị cùng một lúc 
 
-## LORA KẾT THÚC NODE 
+## LORA END NODE 
 
 - Một nút kết thúc LoRa bao gồm 2 phần: 
 
