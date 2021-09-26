@@ -170,7 +170,7 @@ Khi một phản hồi được gửi đi, máy chủ mạng sẽ nhận phản 
 - Các giao thức LoRaWAN được xác định bởi LoRa Alliance. 
 - Đây là một tổ chức phi lợi nhuận của hơn 500 công ty thành viên, cam kết cho phép triển khai LPWAN IoT trên quy mô lớn thông qua việc phát triển và quảng bá tiêu chuẩn mở LoRaWAN. 
 
-<a name"></a>
+<a name"IB"></a>
 ## ISM BAND 
 
 - LoRa hoạt động trong băng tần vô tuyến ISM (Industrial, Scientific and Medical) không được cấp phép có sẵn trên toàn thế giới. 
@@ -209,7 +209,7 @@ Ngoại trừ Nhật Bản, họ có Trung tâm Kỹ thuật Viễn thông (TELE
 
 - Cơ quan quản lý này đã ban hành các điều kiện và yêu cầu khi sử dụng LoRa ở Hà Lan và dựa trên các tiêu chuẩn do ETSI đặt ra.  
 
-<a naA"></a>
+<a name"OARA"></a>
 ## ORGANISATIONS AND REGULATORY AUTHORITIES 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Orangnisation.png"></div> 
