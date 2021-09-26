@@ -1,5 +1,5 @@
 # Tổng quan về LoraWan 
-Danh mục tìm hiểu:
+## Danh mục tìm hiểu:
 - [INTERNET OF THINGS](#IOT) 
 - [LPWAN](#LPW)
 - [WIRELESS COMMUNICATION COMPARISON](#WCC)
