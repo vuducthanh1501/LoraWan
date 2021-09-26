@@ -1,7 +1,8 @@
 # Tổng quan về LoraWan 
 Danh mục tìm hiểu:
-- [1. INTERNET OF THINGS](##INTERNET OF THINGS)
+- [INTERNET OF THINGS](#IOT)
 
+<a name="IOT"></a>
 ## INTERNET OF THINGS 
 
 - Internet of Things, hay IoT, là một mạng lưới các thiết bị vật lý được kết nối với Internet và có thể "nói chuyện" với nhau.  
