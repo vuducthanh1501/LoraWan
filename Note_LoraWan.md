@@ -2,11 +2,9 @@
 
 ## INTERNET OF THINGS 
 
-• Internet of Things, hay IoT, là một mạng lưới các thiết bị vật lý được kết nối với 
-Internet và có thể "nói chuyện" với nhau.  
+• Internet of Things, hay IoT, là một mạng lưới các thiết bị vật lý được kết nối với Internet và có thể "nói chuyện" với nhau.  
 • Dự đoán đến năm 2020 sẽ có trên 25 tỷ thiết bị kết nối Internet.  
-• Có nhiều công nghệ không dây có thể sử dụng để kết nối các thiết bị này với 
-Internet, chẳng hạn như:  
+• Có nhiều công nghệ không dây có thể sử dụng để kết nối các thiết bị này với Internet, chẳng hạn như:  
 - Giao tiếp không dây tầm ngắn 
 - Giao tiếp di động 
 - Giao tiếp LPWA 
@@ -17,7 +15,7 @@ Internet, chẳng hạn như:
 dây này được thiết kế để gửi các gói dữ liệu nhỏ ở khoảng cách xa, hoạt 
 động bằng pin. 
 
-<div style="text-align:center"><img src="https://github.com/vuducthanh0115/Documents/blob/main/Image/1.png"></div>  
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Lora%20range.png"></div>  
 
 ## WIRELESS COMMUNICATION 
 
@@ -27,7 +25,8 @@ dây này được thiết kế để gửi các gói dữ liệu nhỏ ở kho�
 
 • Phạm vi giữa người gửi và người nhận LoRa phụ thuộc vào môi trường thiết bị hoạt động. Phạm vi phủ sóng trong nhà phần lớn phụ thuộc vào loại vật liệu xây dựng được sử dụng. 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Lora%20range.png"></div> 
+
 
 • Một số kỷ lục đáng chú ý: 
 
@@ -100,7 +99,7 @@ Một thiết bị như vậy được gọi là remote.
 
 ## LORAWAN NETWORK 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LoraWan_Network.png"></div> 
 
 • LoRaWAN network architecture is deployed in a star topology.  
 • The communication between the end node and gateway is bidirectional which means the end node can send data to the gateway but it can also receive data from the gateway.  
@@ -128,7 +127,7 @@ cổng nào sẽ sử dụng để phát phản hồi trở lại nút cuối.
 
 ## LORA PROTOCOL STACK 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LoraWan_protocol.png"></div> 
 
 ## LORA ALLIANCE 
 
@@ -141,7 +140,7 @@ quảng bá tiêu chuẩn mở LoRaWAN.
 
 • LoRa hoạt động trong băng tần vô tuyến ISM (Industrial, Scientific and Medical) không được cấp phép có sẵn trên toàn thế giới. 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/ISM_Band.png"></div>
 
 • Tại Hoa Kỳ, LoRaWAN hoạt động trong dải tần 902-928 MHz. 
 
@@ -176,7 +175,7 @@ Hà Lan và dựa trên các tiêu chuẩn do ETSI đặt ra.
 
 ## ORGANISATIONS AND REGULATORY AUTHORITIES 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Orangnisation.png"></div> 
 
 ## ISM BAND AND DUTY CYCLE 
 
@@ -197,20 +196,20 @@ Hà Lan và dựa trên các tiêu chuẩn do ETSI đặt ra.
 • Thời gian trực tuyến (ToA) là khoảng thời gian ăng-ten của máy phát được cấp năng lượng và truyền dữ liệu. 
 Lưu ý: ToA là không phải thời gian từTx đến Rx.  
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Time_on_air.png"></div> 
 
 ## DUTY CYCLE 
 
 • Chu kỳ làm việc là tỷ lệ thời gian trong đó một bộ phận, thiết bị hoặc hệ thống được vận hành. Chu kỳ làm việc có thể được biểu thị dưới dạng tỷ lệ hoặc phần trăm. 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/duty%20cycle.png"></div> 
 
 
 ## LORAWAN DEVICE CLASSES 
 
 • The LoRaWAN specification [4] defines three device classes: 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Class.png"></div>
 
 ### CLASS A 
 
@@ -219,7 +218,7 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 • Nút cuối mở 2 khe nhận tại t1 và t2 vài giây sau khi truyền tải đường lên. Cổng có thể phản hồi trong khe nhận đầu tiên hoặc khe nhận thứ hai, nhưng không phải cả hai. 
 • Class B và C cũng phải hỗ trợ chức năng class A. 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/class%20A.png"></div> 
 
 ### CLASS B 
 
@@ -227,14 +226,14 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 • Nút cuối nhận được một báo hiệu được đồng bộ hóa thời gian từ gateway, cho phép cổng kết nối biết khi nào nút đang lắng nghe. 
 • Class B không hỗ trợ chức năng của thiết bị C. 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Class%20B.png"></div> 
 
 ### CLASS C 
 
 • Ngoài các khe nhận class A, một thiết bị class C sẽ lắng nghe liên tục các phản hồi từ gateway. 
 • Thiết bị class C không hỗ trợ chức năng của thiết bị B. 
 
-<img> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/class%20C.png"></div>
 
 
 
