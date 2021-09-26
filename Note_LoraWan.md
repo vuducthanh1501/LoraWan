@@ -2,6 +2,7 @@
 Danh mục tìm hiểu:
 - [INTERNET OF THINGS](#IOT) 
 - [LPWAN](#LPW)
+- [WIRELESS COMMUNICATION COMPARISON](#)
 
 <a name="IOT"></a>
 ## INTERNET OF THINGS 
@@ -23,7 +24,7 @@ Danh mục tìm hiểu:
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LPWAN.png"></div>  
 
-<a name="IOT"></a>
+<a name="WCC"></a>
 ## WIRELESS COMMUNICATION COMPARISON
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Comparison.png"></div> 
@@ -42,7 +43,7 @@ Andreas Spiess, kết nối đất với mặt đất: 212 km (= 131,73 dặm)
 
 Kết nối khí cầu thời tiết với mặt đất: 702,67 km (= 436,61 dặm) 
 
-<a name="IOT"></a>
+<a name="M"></a>
 ## MỘT SỐ TRƯỜNG HỢP SỬ DỤNG NGHỆ LORA (FEW USE CASES USING LORA TECHNOLOGY)
 
 **- Tiện ích thông minh (Smart utilities)**
@@ -58,34 +59,31 @@ Giám sát nhiệt độ / độ ẩm
 Kiểm soát môi trường  
 Quản lý chất thải (giám sát mức chất thải trong thùng chất thải)  
 
-<a name="IOT"></a>
-## MỘT SỐ TRƯỜNG HỢP SỬ DỤNG SỬ DỤNG CÔNG NGHỆ LORA(FEW USE CASES USING LORA TECHNOLOGY) 
-
-**• Sự an toàn (Safety)**
+**- Sự an toàn (Safety)**
 
 Smart lightning    
 Giám sát mực nước  
 Giám sát mức độ phóng xạ  
 Giám sát đê điều (ngăn đê bùn than bùn bị khô)  
 
-**• Hiệu quả (Efficiency)**
+**- Hiệu quả (Efficiency)**
 
 Quản lý tài sản (ví dụ: theo dõi container, pallet, v.v.)  
 Quản lý đội xe (ví dụ: theo dõi ô tô, xe tải, v.v.)  
 
-**• Nông nghiệp (Agriculture)** 
+**- Nông nghiệp (Agriculture)** 
 
 Giám sát phúc lợi động vật  
 Giám sát điều kiện phát triển của cây trồng  
 
-<a name="IOT"></a>
+<a name="LO"></a>
 ## LORA 
 
 - LoRa là từ viết tắt của Long Range và nó là một công nghệ không dây trong đó người gửi có công suất thấp truyền các gói dữ liệu nhỏ (0,3 kbps đến 5,5 kbps) đến người nhận trong một khoảng cách xa. 
 
 - Một cổng có thể xử lý hàng trăm thiết bị cùng một lúc 
 
-<a name="IOT"></a>
+<a nameLENEN"></a>
 ## LORA END NODE 
 
 - Một nút kết thúc LoRa bao gồm 2 phần: 
@@ -98,7 +96,7 @@ Giám sát điều kiện phát triển của cây trồng
 Nếu thiết bị này cũng có cảm biến, thiết bị này hoạt động như một cảm biến từ xa.
 Một thiết bị như vậy được gọi là remote. 
 
-<a name="IOT"></a>
+<a name="LG"></a>
 ## LORA GATEWAY 
 
 - Cổng LoRa bao gồm 2 phần:  
@@ -109,7 +107,7 @@ Một thiết bị như vậy được gọi là remote.
 • Nhiều cổng có thể nhận dữ liệu từ cùng một nút kết thúc.  
 • Các cổng có thể nghe nhiều tần số đồng thời,trong mọi hệ số lan truyền ở mỗi tần số.  
 
-<a name="IOT"></a>
+<a name="LN"></a>
 ## LORAWAN NETWORK 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LoraWan_Network.png"></div> 
@@ -117,13 +115,13 @@ Một thiết bị như vậy được gọi là remote.
 - LoRaWAN network architecture is deployed in a star topology.  
 - The communication between the end node and gateway is bidirectional which means the end node can send data to the gateway but it can also receive data from the gateway.  
 
-<a name="IOT"></a>
+<a name="UAD"></a>
 ## UPLINK AND DOWNLINK 
 
 - When an end node transmits data to the gateway it is called an uplink. 
 - When the gateway transmits data to the end node it is called a downlink. 
 
-<a name="IOT"></a>
+<a name="LHD"></a>
 ## LORAWAN HOẠT ĐỘNG NHƯ THẾ NÀO 
 
 - Một nút cuối phát dữ liệu của nó tới mọi cổng trong vùng lân cận của nó. 
@@ -133,24 +131,24 @@ Một thiết bị như vậy được gọi là remote.
 - Tùy chọn máy chủ ứng dụng có thể gửi phản hồi trở lại nút cuối. 
 Khi một phản hồi được gửi đi, máy chủ mạng sẽ nhận phản hồi và xác định cổng nào sẽ sử dụng để phát phản hồi trở lại nút cuối. 
 
-<a name="IOT"></a>
+<a name="G"></a>
 ## GIAO TIẾP TRỰC TIẾP GIỮA CÁC THIẾT BỊ LORA 
 
 - Giao thức LoRaWAN không hỗ trợ giao tiếp trực tiếp giữa các nút cuối. 
 - Nếu bạn muốn giao tiếp trực tiếp giữa các thiết bị LoRa mà không cần sử dụng cổng, hãy sử dụng thư viện RadioHead Packet Radio dành cho bộ vi xử lý nhúng. Nó cung cấp một thư viện hướng đối tượng hoàn chỉnh để gửi và nhận các tin nhắn có kích thước gói thông qua nhiều loại radio như LoRa trên một loạt các bộ vi xử lý nhúng. 
 
-<a name="IOT"></a>
+<a name="LPSLPS"></a>
 ## LORA PROTOCOL STACK 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LoraWan_protocol.png"></div> 
 
-<a name="IOT"></a>
+<a name="LA"></a>
 ## LORA ALLIANCE 
 
 - Các giao thức LoRaWAN được xác định bởi LoRa Alliance. 
 - Đây là một tổ chức phi lợi nhuận của hơn 500 công ty thành viên, cam kết cho phép triển khai LPWAN IoT trên quy mô lớn thông qua việc phát triển và quảng bá tiêu chuẩn mở LoRaWAN. 
 
-<a name="IOT"></a>
+<a name"></a>
 ## ISM BAND 
 
 - LoRa hoạt động trong băng tần vô tuyến ISM (Industrial, Scientific and Medical) không được cấp phép có sẵn trên toàn thế giới. 
