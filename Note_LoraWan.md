@@ -1,32 +1,5 @@
 # Tổng quan về LoraWan 
-## Danh mục tìm hiểu:
-- [INTERNET OF THINGS](#IOT) 
-- [LPWAN](#LPW)
-- [WIRELESS COMMUNICATION COMPARISON](#WCC)
-- [LORA RANGE](#LR)
-- [FEW USE CASES USING LORA TECHNOLOGY](#FU)
-- [LORA](#LO)
-- [LORA END NODE](#LEN)
-- [LORA GATEWAY](#LG)
-- [LORAWAN NETWORK](#LN)
-- [UPLINK AND DOWNLINK](#UAD)
-- [LORAWAN HOẠT ĐỘNG NHƯ THẾ NÀO](#LHD)
-- [GIAO TIẾP TRỰC TIẾP GIỮA CÁC THIẾT BỊ LORA](#G)
-- [LORA PROTOCOL STACK](#LPS)
-- [LORA ALLIANCE](#LA)
-- [ISM BAND](#IB)
-- [ETSI VÀ FCC](#E)
-- [ORGANISATIONS AND REGULATORY AUTHORITIES](#OARA)
-- [ISM BAND AND DUTY CYCLE](#IBADC)
-- [THE THINGS NETWORK (TTN) FAIR USE ](#TTN)
-- [TIME ON AIR](#TOA)
-- [DUTY CYCLE](#DC)
-- [LORAWAN DEVICE CLASSES](#LDC)
-- [CLASS A](#CA)
-- [CLASS B](#CB)
-- [CLASS C](#CC)
 
-<a name="IOT"></a>
 ## INTERNET OF THINGS 
 
 - Internet of Things, hay IoT, là một mạng lưới các thiết bị vật lý được kết nối với Internet và có thể "nói chuyện" với nhau.  
@@ -39,19 +12,18 @@
 - Giao tiếp di động 
 - Giao tiếp LPWA 
 
-<a name="LPW"></a>
 ## LPWAN 
 
 - LPWAN là viết tắt của Low Power Wide Area Network và loại giao tiếp không dây này được thiết kế để gửi các gói dữ liệu nhỏ ở khoảng cách xa, hoạt động bằng pin. 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LPWAN.png"></div>  
 
-<a name="WCC"></a>
+
 ## WIRELESS COMMUNICATION COMPARISON
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Comparison.png"></div> 
 
-<a name="LR"></a>
+
 ## LORA RANGE 
 
 - Phạm vi giữa người gửi và người nhận LoRa phụ thuộc vào môi trường thiết bị hoạt động. Phạm vi phủ sóng trong nhà phần lớn phụ thuộc vào loại vật liệu xây dựng được sử dụng. 
@@ -65,7 +37,7 @@ Andreas Spiess, kết nối đất với mặt đất: 212 km (= 131,73 dặm)
 
 Kết nối khí cầu thời tiết với mặt đất: 702,67 km (= 436,61 dặm) 
 
-<a name="FU"></a>
+
 ## MỘT SỐ TRƯỜNG HỢP SỬ DỤNG NGHỆ LORA (FEW USE CASES USING LORA TECHNOLOGY)
 
 **- Tiện ích thông minh (Smart utilities)**
@@ -98,14 +70,13 @@ Quản lý đội xe (ví dụ: theo dõi ô tô, xe tải, v.v.)
 Giám sát phúc lợi động vật  
 Giám sát điều kiện phát triển của cây trồng  
 
-<a name="LO"></a>
+
 ## LORA 
 
 - LoRa là từ viết tắt của Long Range và nó là một công nghệ không dây trong đó người gửi có công suất thấp truyền các gói dữ liệu nhỏ (0,3 kbps đến 5,5 kbps) đến người nhận trong một khoảng cách xa. 
 
 - Một cổng có thể xử lý hàng trăm thiết bị cùng một lúc 
 
-<a name="LEN"></a>
 ## LORA END NODE 
 
 - Một nút kết thúc LoRa bao gồm 2 phần: 
@@ -118,7 +89,6 @@ Giám sát điều kiện phát triển của cây trồng
 Nếu thiết bị này cũng có cảm biến, thiết bị này hoạt động như một cảm biến từ xa.
 Một thiết bị như vậy được gọi là remote. 
 
-<a name="LG"></a>
 ## LORA GATEWAY 
 
 - Cổng LoRa bao gồm 2 phần:  
@@ -129,21 +99,27 @@ Một thiết bị như vậy được gọi là remote.
 • Nhiều cổng có thể nhận dữ liệu từ cùng một nút kết thúc.  
 • Các cổng có thể nghe nhiều tần số đồng thời,trong mọi hệ số lan truyền ở mỗi tần số.  
 
-<a name="LN"></a>
 ## LORAWAN NETWORK 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LoraWan_Network.png"></div> 
 
-- LoRaWAN network architecture is deployed in a star topology.  
-- The communication between the end node and gateway is bidirectional which means the end node can send data to the gateway but it can also receive data from the gateway.  
+- Kiến trúc mạng LoraWan đuwocj triển khai theo cấu trúc liên kết hình ngôi sao.   
+- Các mạng LoraWan được đặt trong cấu trúc liên kết sao có các trạm cơ sở chuyển tiếp dữ liệu giữa các node cảm biến và Network Server. 
+- Giao tiếp giữa các node cảm biến và các trạm cơ sở đi qua kênh không dây sử dụng lớp vật lý Lora, trong khi kết nối giữa các gateway và máy chủ trung tâm được xử lý qua mạng dựa trên IP. 
+- End nodes truyền trực tiếp đến tất cả các Gateway trong phạm vi sử dụng Lora. 
+- Gateway chuyển tiếp tin nhắn giữa các thiết bị dầu cuối và Network Server trung tâm sử dungj IP. 
+- End nodes thương là cảm biến nhúng công nghệ Lora. Các node thường có: 
+  + Các cảm biến : được sử dụng để phát hiện thông số thay đổi 
+  + Lora transponder để truyền tín hiệu qua phương thức truyền vô tuyến được cấp bằng sáng chế của Lora. 
+  + 1 bộ điều khiển vi mô(với bộ nhớ trên bo mạch) có thể có hoặc không 
+Các cảm biến có thể kết nối với chip transponder Lora hoặc cảm biến có thể là 1 đơn vị tích hợp với chip transponder Lora được nhúng bên trong. 
 
-<a name="UAD"></a>
+
 ## UPLINK AND DOWNLINK 
 
 - When an end node transmits data to the gateway it is called an uplink. 
 - When the gateway transmits data to the end node it is called a downlink. 
 
-<a name="LHD"></a>
 ## LORAWAN HOẠT ĐỘNG NHƯ THẾ NÀO 
 
 - Một nút cuối phát dữ liệu của nó tới mọi cổng trong vùng lân cận của nó. 
@@ -153,24 +129,22 @@ Một thiết bị như vậy được gọi là remote.
 - Tùy chọn máy chủ ứng dụng có thể gửi phản hồi trở lại nút cuối. 
 Khi một phản hồi được gửi đi, máy chủ mạng sẽ nhận phản hồi và xác định cổng nào sẽ sử dụng để phát phản hồi trở lại nút cuối. 
 
-<a name="G"></a>
+
 ## GIAO TIẾP TRỰC TIẾP GIỮA CÁC THIẾT BỊ LORA 
 
 - Giao thức LoRaWAN không hỗ trợ giao tiếp trực tiếp giữa các nút cuối. 
 - Nếu bạn muốn giao tiếp trực tiếp giữa các thiết bị LoRa mà không cần sử dụng cổng, hãy sử dụng thư viện RadioHead Packet Radio dành cho bộ vi xử lý nhúng. Nó cung cấp một thư viện hướng đối tượng hoàn chỉnh để gửi và nhận các tin nhắn có kích thước gói thông qua nhiều loại radio như LoRa trên một loạt các bộ vi xử lý nhúng. 
 
-<a name="LPSLPS"></a>
+
 ## LORA PROTOCOL STACK 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/LoraWan_protocol.png"></div> 
 
-<a name="LA"></a>
 ## LORA ALLIANCE 
 
 - Các giao thức LoRaWAN được xác định bởi LoRa Alliance. 
 - Đây là một tổ chức phi lợi nhuận của hơn 500 công ty thành viên, cam kết cho phép triển khai LPWAN IoT trên quy mô lớn thông qua việc phát triển và quảng bá tiêu chuẩn mở LoRaWAN. 
 
-<a name="IB"></a>
 ## ISM BAND 
 
 - LoRa hoạt động trong băng tần vô tuyến ISM (Industrial, Scientific and Medical) không được cấp phép có sẵn trên toàn thế giới. 
@@ -191,7 +165,6 @@ Khi một phản hồi được gửi đi, máy chủ mạng sẽ nhận phản 
 • Tốc độ dữ liệu thấp. 
 • Rất nhiều nhiễu vì bất kỳ ai cũng có thể sử dụng các tần số này. 
 
-<a name="E"></a>
 ## ETSI VÀ FCC 
 
 - Bởi vì băng tần ISM có thể được sử dụng bởi tất cả mọi người, phải có một số quy tắc được đặt ra nếu không băng tần này sẽ trở nên không sử dụng được. Hãy nghĩ đến nhiều tín hiệu gây nhiễu. 
@@ -209,12 +182,10 @@ Ngoại trừ Nhật Bản, họ có Trung tâm Kỹ thuật Viễn thông (TELE
 
 - Cơ quan quản lý này đã ban hành các điều kiện và yêu cầu khi sử dụng LoRa ở Hà Lan và dựa trên các tiêu chuẩn do ETSI đặt ra.  
 
-<a name="OARA"></a>
 ## ORGANISATIONS AND REGULATORY AUTHORITIES 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Orangnisation.png"></div> 
 
-<a name="IBADC"></a>
 ## ISM BAND AND DUTY CYCLE 
 
 - Ví dụ: ở Châu Âu khi sử dụng các tần số băng tần ISM (863 MHz - 870 MHz), người dùng phải tuân thủ các quy tắc sau: 
@@ -225,14 +196,12 @@ Ngoại trừ Nhật Bản, họ có Trung tâm Kỹ thuật Viễn thông (TELE
 
 - Bên cạnh các quy tắc về băng tần ISM này, nhà khai thác mạng (ví dụ: The Things Network) cũng có thể thêm các hạn chế bổ sung. 
 
-<a name="TTN"></a>
 ## THE THINGS NETWORK (TTN) FAIR USE 
 
 • Nếu bạn sử dụng The Things Network (mạng LoRaWAN cộng đồng công cộng miễn phí) chính sách sử dụng hợp lý sau sẽ được áp dụng: 
 • Thời gian phát sóng của đường lên được giới hạn trong 30 giây mỗi ngày (24 giờ) cho mỗi nút. 
 • Các thông báo đường xuống được giới hạn ở 10 thông báo mỗi ngày (24 giờ) cho mỗi nút. 
 
-<a name="TOA"></a>
 ## TIME ON AIR 
 
 • Thời gian trực tuyến (ToA) là khoảng thời gian ăng-ten của máy phát được cấp năng lượng và truyền dữ liệu. 
@@ -240,21 +209,18 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Time_on_air.png"></div> 
 
-<a name="DC"></a>
 ## DUTY CYCLE 
 
 • Chu kỳ làm việc là tỷ lệ thời gian trong đó một bộ phận, thiết bị hoặc hệ thống được vận hành. Chu kỳ làm việc có thể được biểu thị dưới dạng tỷ lệ hoặc phần trăm. 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/duty%20cycle.png"></div> 
 
-<a name="LDC"></a>
 ## LORAWAN DEVICE CLASSES 
 
 • The LoRaWAN specification [4] defines three device classes: 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Class.png"></div>
 
-<a name="CA"></a>
 ### CLASS A 
 
 - Tại bất kỳ thời điểm nào, một nút kết thúc có thể phát tín hiệu. Sau quá trình truyền uplink 
@@ -264,7 +230,6 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/class%20A.png"></div> 
 
-<a name="CB"></a>
 ### CLASS B 
 
 - Ngoài các slot nhận Class A, các thiết bị Class B mở thêm các slot nhận vào các thời điểm đã lên lịch. 
@@ -273,7 +238,6 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Class%20B.png"></div> 
 
-<a name="CC"></a>
 ### CLASS C 
 
 - Ngoài các khe nhận class A, một thiết bị class C sẽ lắng nghe liên tục các phản hồi từ gateway. 
@@ -282,7 +246,67 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/class%20C.png"></div>
 
 
+### PROPAGATION
 
+• Sự lan truyền là cách sóng vô tuyến truyền qua không gian tự do (còn được gọi là phương tiện).Cách mà những sóng này truyền đi có thể ảnh hưởng đến cường độ tín hiệu của nó.  
+
+• Sự lan truyền đường nhìn  
+Sóng vô tuyến truyền trực tiếp từ người gửi đến người nhận mà không gặp bất kỳ trở ngại nào. Nếu khoảng cách giữa người gửi và người nhận càng lớn thì tín hiệu sẽ yếu đi. Mất mát này được gọi là mất dung lượng trống. 
+
+• Nếu có trở ngại gần đường đi của nó (trong vùng Fresnel), sóng vô tuyến phản xạ từ những vật thể đó có thể đến lệch pha với tín hiệu truyền trực tiếp và làm giảm công suất của tín hiệu nhận được. 
+
+• Truyền qua chướng ngại vật
+Sóng vô tuyến có thể xuyên qua các chướng ngại vật xuất hiện trên đường đi của nó. Sóng vô tuyến mất sức mạnh nếu nó đi qua chướng ngại vật làm bằng vật liệu dẫn điện hơn.  
+
+• Sự lan truyền thông qua sự phản chiếu  
+Sóng vô tuyến có thể bị phản xạ bởi các tòa nhà gây nhiễu tín hiệu trực tiếp của nó. 
+
+• Sự lan truyền thông qua sự nhiễu xạ
+Nhiễu xạ là nơi sóng vô tuyến bị bẻ cong xung quanh các cạnh sắc. Cổng vào có thể nhận được tín hiệu từ một máy phát mặc dù nó có thể bị “che khuất” bởi một chướng ngại vật lớn. 
+
+### Lora Terminologies 
+
+#### Chirp: 
+-  Up-chirp: Tần số tăng dần theo thời gian. 
+-  Down-Chirp: Tần số giảm dần theo thời gian. 
+
+### Dữ liệu trong 1 radio packet của LoRa, bao gồm:
+
+- Preamble: Là chuỗi binary để bộ nhận detect được tín hiệu của LoRa packet trong không khí 
+- Header: chứa thông tin về size của Payload cũng như có PayloadCRC  hay không. Giá trị của Header cũng được check CRC kèm theo 
+- Payload: là dữ liệu ứng dụng truyền qua LoRa 
+- Payload: giá trị CRC của Payload. Nếu có PayloadCRC, LoRa chip sẽ tự kiểm tra dữ liệu trong Payload và báo lên nếu CRC OK hay không 
+
+## Lora chip 
+
+Semtech SX1278: Single channel Lora chip 
+
+- Available in Ra01, Ra02 and RFM96 
+
+Semtech SX1301: 8-channel Lora chip 
+- Fully compatible with LoraWan 
+
+## Lora Module 
+
+Lora module = MCU + Lora chip  
+MCU : STM8, STM32, ESP8266, ESP32, ARM, ...  
+MCU and Lora chip are connected using SPI interface.  
+
+### Lora Module - UART 
+
+UART Lora Module: E32(better) and AS32  
+- SX 1278 + STM8 . Connected via UART TX and RX 
+- Has GUI tool to configure. Hide important Lora settings 
+
+### SPI(Serial Peripheral Interface) or UART Lora Module? 
+
+- UART module 
+  + Pro: Simple for point to point Lora connection. 
+  + Cons: Slower in bandwidth due to UART speed and MCU polling. 
+
+- SPI module 
+  + Pro: Faster. Can control every Lora settings to suit the purpose. 
+  + Cons: Need to do everything yourself. Hence, make it easy and open source. 
 
 
 
