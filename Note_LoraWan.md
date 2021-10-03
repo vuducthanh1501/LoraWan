@@ -105,7 +105,7 @@ Giám sát điều kiện phát triển của cây trồng
 
 - Một cổng có thể xử lý hàng trăm thiết bị cùng một lúc 
 
-<a name"LEN"></a>
+<a name="LEN"></a>
 ## LORA END NODE 
 
 - Một nút kết thúc LoRa bao gồm 2 phần: 
@@ -170,7 +170,7 @@ Khi một phản hồi được gửi đi, máy chủ mạng sẽ nhận phản 
 - Các giao thức LoRaWAN được xác định bởi LoRa Alliance. 
 - Đây là một tổ chức phi lợi nhuận của hơn 500 công ty thành viên, cam kết cho phép triển khai LPWAN IoT trên quy mô lớn thông qua việc phát triển và quảng bá tiêu chuẩn mở LoRaWAN. 
 
-<a name"IB"></a>
+<a name="IB"></a>
 ## ISM BAND 
 
 - LoRa hoạt động trong băng tần vô tuyến ISM (Industrial, Scientific and Medical) không được cấp phép có sẵn trên toàn thế giới. 
@@ -209,7 +209,7 @@ Ngoại trừ Nhật Bản, họ có Trung tâm Kỹ thuật Viễn thông (TELE
 
 - Cơ quan quản lý này đã ban hành các điều kiện và yêu cầu khi sử dụng LoRa ở Hà Lan và dựa trên các tiêu chuẩn do ETSI đặt ra.  
 
-<a name"OARA"></a>
+<a name="OARA"></a>
 ## ORGANISATIONS AND REGULATORY AUTHORITIES 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Orangnisation.png"></div> 
@@ -280,6 +280,8 @@ Lưu ý: ToA là không phải thời gian từTx đến Rx.
 - Thiết bị class C không hỗ trợ chức năng của thiết bị B. 
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/class%20C.png"></div>
+
+
 
 
 
