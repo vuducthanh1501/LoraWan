@@ -363,7 +363,7 @@ Hai cách thức chính: Packet Forwarder và Bridge.
 # 3. Kết quả thu được
 
 
-# Các kiến thức được tìm hiểu tại group: Easy LoRa - IoTThinks.com[https://www.facebook.com/groups/iotthinks]
+# Các kiến thức được tìm hiểu tại group: Easy LoRa - IoTThinks.com["https://www.facebook.com/groups/iotthinks"]
 
 
 
