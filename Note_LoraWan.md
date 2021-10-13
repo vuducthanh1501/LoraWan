@@ -334,7 +334,7 @@ Thường nó bao gồm cả Packet forwarder (UDP/1700) bên trong gateway. Và
 Nhược kiểm: Cồng kềnh, phức tạp hơn. Nên không phải gateway nào cũng hỗ trợ.  
 Kiểu kết nối này hay gặp ở các LoRaWAN gateway 8 kênh trở lên (Kerlink, Dragino 8 kênh...)  
 
-<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/class%20C.png"></div>
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Conected.jpg"></div>
 
 
 
