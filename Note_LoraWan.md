@@ -353,6 +353,27 @@ Hai cách thức chính: Packet Forwarder và Bridge.
 
 **Note** : LoRaWAN gateway về nguyên tắc nó chỉ kết nối với LoRaWAN Network server.Kết nối với hệ thống MQTT ngoài hay HASS ngoài thông qua LoRaWAN Network server hoặc IoT server. LoRaWAN gateway không giải mã (decrypt) và không đọc được dữ liệu giữa node và server. Dữ liệu giữa node và server được mã hóa.  
 
+### LORAWAN NODE: CẢM BIẾN VÀ LORAWAN 
+
+**1. CHỨC NĂNG** 
+
+- Trong 3 thành phần chuẩn LoRaWAN node, gateway và network server thì LoRaWAN node là thành phần quan trọng nhất.
+- Kết nối trực tiếp với vô vàn cảm biến từ dân dụng / công nghiệp / nông nghiệp.
+- Kết nối đến relay để đóng cắt nguồn điện.
+- Gửi dữ liệu đã mã hóa về network server thông qua LoRaWAN gateway.
+- Vì được kết nối với nhiều loại cảm biến, nên LoRaWAN node rất đa dạng.
+- Tuy nhiên, nếu dùng chuẩn LoRaWAN thì mọi LoRaWAN node đều hoạt động với mọi loại LoRaWAN gateway và network server.
+
+**2. THÀNH PHẦN**  
+
+- LoRaWAN Sensor = LoRaWAN Node + Sensor. 
++ LoRaWAN Sensor là LoRaWAN Node gắn thêm cảm biến. 
+
+- LoRaWAN node = MCU + SX126x / SX127x 
++ MCU: ESP32, Arduino, STM32....  
++ Semtech LoRa SX126x / SX127x: Đa phần là chip single channel SX126x / 127x. 
+
+
 # 2. Các vấn đề nghiên cứu phát triển, triển khai 
 
 - Nghiên cứu, tìm hiểu về LoRaWAN, phân biệt LoRa spi và LoRa uart. Đi sâu vào tìm hiểu LoRa spi. 
