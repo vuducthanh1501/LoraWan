@@ -47,7 +47,7 @@ Giám sát mực nước
 Đồng hồ đo tiện ích  
 Giám sát nhiên liệu (giám sát mức nhiên liệu trong thùng nhiên liệu để sưởi ấm nhà)  
 
-**- Sức khỏe & Vệ sinh (Health & Hygiene)**
+**- Health & Hygiene**
 
 Giám sát nhiệt độ / độ ẩm  
 Kiểm soát môi trường  
@@ -98,6 +98,13 @@ Một thiết bị như vậy được gọi là remote.
 • Các cổng được cấp nguồn chính và kết nối với Internet.  
 • Nhiều cổng có thể nhận dữ liệu từ cùng một nút kết thúc.  
 • Các cổng có thể nghe nhiều tần số đồng thời,trong mọi hệ số lan truyền ở mỗi tần số.  
+
+## LORAWAN
+
+- Xác định giao thức truyền thông và kiến trúc hệ thống cho mạng lưới trong khi lớp vật lí Lora cho phép liên kết truyền thông tầm xa.  
+
+- Là một giao thức kiểm soát truy cập phương tiện (MAC) cho các mạng diện rộng, được thiết kế để cho phép các thiết bị có công suất thấp giao tiếp với các ứng dụng kết nối Internet qua các kết nối không dây tầm xa.  
+
 
 ## LORAWAN NETWORK 
 
