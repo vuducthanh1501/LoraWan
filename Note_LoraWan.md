@@ -315,8 +315,26 @@ UART Lora Module: E32(better) and AS32
   + Pro: Faster. Can control every Lora settings to suit the purpose. 
   + Cons: Need to do everything yourself. Hence, make it easy and open source. 
 
+## CÁCH KẾT NỐI LORAWAN GATEWAY VÀO LORAWAN SERVER 
 
+Hai cách thức chính: Packet Forwarder và Bridge.  
 
+**1. PACKET FORWARDER** 
+
+- Packet Forwarder do chính Semtech (hãng sản xuất chip LoRa) tạo ra và vẫn còn được code thêm / bảo trì.  
+Ưu điểm: Nguồn mở, đơn giản và dễ quay bài code cho các nền tảng khác nhau.  
+Nhược điểm: Bảo mặt kém hơn và UDP thì dễ mất gói hơn TCP.  
+Kiểu kết nối này hay gặp ở các LoRaWAN gateway 1 kênh.  
+
+**2. BRIDGE** 
+
+Kiểu kết nối Bridge là do các hãng LoRaWAN server tạo ra và hỗ trợ cho các LoRaWAN gateway phổ biến.  
+Thường nó bao gồm cả Packet forwarder (UDP/1700) bên trong gateway. Và gateway tự đọc UDP/1700 và giao tiếp với LoRaWAN server qua MQTT/MQTTS.  
+Ưu điểm: Bao gồm mọi ưu điểm của MQTT/MQTTS. Bảo mật tốt hơn do có authentication (user/password) và có mã hóa nếu dùng MQTTS.  
+Nhược kiểm: Cồng kềnh, phức tạp hơn. Nên không phải gateway nào cũng hỗ trợ.  
+Kiểu kết nối này hay gặp ở các LoRaWAN gateway 8 kênh trở lên (Kerlink, Dragino 8 kênh...)  
+
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/class%20C.png"></div>
 
 
 
