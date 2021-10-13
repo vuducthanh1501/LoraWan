@@ -1,4 +1,4 @@
-# Tổng quan về LoraWan 
+# 1.Tổng quan lý thuyết về LoraWan 
 
 ## INTERNET OF THINGS 
 
@@ -293,7 +293,7 @@ Semtech SX1278: Single channel Lora chip
 Semtech SX1301: 8-channel Lora chip 
 - Fully compatible with LoraWan 
 
-## Lora Module 
+## Lora ModuleSPI
 
 Lora module = MCU + Lora chip  
 MCU : STM8, STM32, ESP8266, ESP32, ARM, ...  
@@ -336,11 +336,34 @@ Hai cách thức chính: Packet Forwarder và Bridge.
 
 <div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Conected.jpg"></div>
 
+### LORAWAN GATEWAY: DATA FORWARDER GIỮA NODE VÀ NETWORK SERVER
+
+**1. Chức năng**  
+- LoRaWAN gateway nằm ở giữa LoRaWAN node và LoRaWAN network server.  
+- Là một thành phần bắt buộc cần có. Buộc phải chạy giao thức LoRaWAN.
+- Làm nhiệm vụ gứi dữ liệu từ node lên server (uplink) và gửi dữ liệu từ server về node (downlink)
+- Không can thiệp vào dữ liệu giữa node và server.
+- Có thể dùng chung bởi nhiều LoRaWAN node. 
+
+**2. Thành phần**  
+- Thành phần chính bao gồm:
++ MCU: Chip xử lý như Arduino, STM32, ESP32...
++ Ethernet / WiFi / 3G: Dùng để kết nối với network server qua giao thức TCP/IP thông thường.
++ LoRaWAN module: Semtech SX123x (8 kênh) hoặc SX126x/127x (1 kênh). Dùng để kết nối với LoRaWAN node. 
+
+**Note** : LoRaWAN gateway về nguyên tắc nó chỉ kết nối với LoRaWAN Network server.Kết nối với hệ thống MQTT ngoài hay HASS ngoài thông qua LoRaWAN Network server hoặc IoT server. LoRaWAN gateway không giải mã (decrypt) và không đọc được dữ liệu giữa node và server. Dữ liệu giữa node và server được mã hóa.  
+
+# 2. Các vấn đề nghiên cứu phát triển, triển khai 
+
+- Nghiên cứu, tìm hiểu về LoRaWAN, phân biệt LoRa spi và LoRa uart. Đi sâu vào tìm hiểu LoRa spi. 
+- Nghiên cứu tìm hiểu về phần cứng để build 1 bộ.  
+- Mục tiêu đầu tiên nghiên cứu kết nối 2 máy  
 
 
+# 3. Kết quả thu được
 
 
-
+# Các kiến thức được tìm hiểu tại group: Easy LoRa - IoTThinks.com[https://www.facebook.com/groups/iotthinks]
 
 
 
