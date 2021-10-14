@@ -394,7 +394,7 @@ Raspberry model B bao gồm:
 - 01 giao diện GPIO (General Purpose Input/Output).
 - Jack Headphone Stereo 3.5mm cho đầu ra âm thanh Analog.
 
-<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Conected.jpg"></div> 
+<div style="text-align:center"><img src="https://github.com/vuducthanh1501/LoraWan/blob/main/Image/Rasp.png"></div> 
 
 ### Arduino 
 
