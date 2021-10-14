@@ -373,13 +373,6 @@ Hai cách thức chính: Packet Forwarder và Bridge.
 + MCU: ESP32, Arduino, STM32....  
 + Semtech LoRa SX126x / SX127x: Đa phần là chip single channel SX126x / 127x. 
 
-
-# 2. Các vấn đề nghiên cứu phát triển, triển khai 
-
-- Nghiên cứu, tìm hiểu về LoRaWAN, phân biệt LoRa spi và LoRa uart. Đi sâu vào tìm hiểu LoRa spi. 
-- Nghiên cứu tìm hiểu về phần cứng để build 1 bộ.  
-- Mục tiêu đầu tiên nghiên cứu kết nối 2 máy  
-
 ### Raspberry pi 
 
 Raspberry Pi gồm có 6 khối liên kết lại với nhau : Ram, CPU/GPU, I/O, USB hub, Ethernet, 2x USB. 
@@ -457,6 +450,12 @@ Mạch thu phát RF Lora SX1278 433Mhz Ra-02 sử dụng chip SX1278 của nhà 
 - transmit: less than 120mA(+20dBm) 
 - Sleep model: 0.2uA 
 - Working temperature: -40- +85 degree. 
+
+# 2. Các vấn đề nghiên cứu phát triển, triển khai 
+
+- Nghiên cứu, tìm hiểu về LoRaWAN, phân biệt LoRa spi và LoRa uart. Đi sâu vào tìm hiểu LoRa spi. 
+- Nghiên cứu tìm hiểu về phần cứng để build 1 bộ.  
+- Mục tiêu đầu tiên nghiên cứu kết nối 2 máy  
 
 # 3. Kết quả thu được
 
