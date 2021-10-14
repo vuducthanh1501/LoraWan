@@ -380,6 +380,55 @@ Hai cách thức chính: Packet Forwarder và Bridge.
 - Nghiên cứu tìm hiểu về phần cứng để build 1 bộ.  
 - Mục tiêu đầu tiên nghiên cứu kết nối 2 máy  
 
+### Raspberry pi 
+
+Raspberry Pi gồm có 6 khối liên kết lại với nhau : Ram, CPU/GPU, I/O, USB hub, Ethernet, 2x USB. 
+
+Raspberry model B bao gồm:
+- SoC 700MHz với 512MB RAM.
+- 1 cổng HDMI cho đầu ra âm thanh/video số.
+- 1 cổng video RCA cho đầu ra video Analog.
+- 02 cổng USB.
+- 01 cổng Ethernet LAN.
+- 01 đầu đọc thẻ nhớ SD để tải hệ điều hành.
+- 01 giao diện GPIO (General Purpose Input/Output).
+- Jack Headphone Stereo 3.5mm cho đầu ra âm thanh Analog.
+
+<div style="text-align:center"><img src="https://github.com/vuducthanh0115/LoraWan/blob/main/Image/Conected.jpg"></div> 
+
+### Arduino 
+
+Arduino là một bo mạch vi điều khiển do một nhóm giáo sư và sinh viên nước Ý thiết kế và đưa ra đầu tiên vào năm 2005. Mạch Arduino được sử dụng để cảm nhận và điều khiển nhiều đối tượng khác nhau. Nó có thể thực hiện nhiều nhiệm vụ lấy tín hiệu từ cảm biến đến điều khiển đèn, động cơ, và nhiều đối tượng khác. Ngoài ra mạch còn có khả năng liên kết với nhiều module khác nhau như module đọc thẻ từ, ethernet shield, sim900A, ….để tăng khả ứng dụng của mạch.  
+
+Phần cứng bao gồm một board mạch nguồn mở được thiết kế trên nền tảng vi xử lý AVR Atmel 8bit, hoặc ARM, Atmel 32-bit,…. Hiện phần cứng của Arduino có tất cả 6 phiên bản, Tuy nhiên phiên bản thường được sử dụng nhiều nhất là Arduino Uno và Arduino Mega.  
+
+Phần mềm để lập trình cho mạch Arduino là phần mềm IDE.  
+
+#### Các loại Board Arduino phổ biến 
+
+1. Arduino Uno  
+Đây chính là loại board đơn giản nhất nên rất phù hợp với những người mới bắt đầu tìm hiểu về lĩnh vực này. Dữ liệu số bao gồm 14 chân, đầu vào gồm 6 chân 5V, khả năng phân giải là 1024 mức, tốc độ 16MHz, điện áp từ 7V đến 12V. Kích thước của Board này là 5,5x7cm.  
+
+2. Arduino Micro
+Bao gồm có đến 20 chân, trong đó có 7 chân có thể phát PWM. Loại này có thiết kế khá nhỏ gọn, kích thước chỉ 5x2cm.  
+
+3. Arduino Nano  
+Có thể nói đây chính là loại board có kích thước nhỏ nhất chỉ 2x4cm, việc lắp đặt được thực hiện dễ dàng.  
+
+4. Arduino Pro  
+Đây là một thiết kế mới mẻ khi chân số không có sẵn, tùy vào số chân bạn sử dụng để gắn trực tiếp và giúp tiết kiệm được khoảng không lớn, ta thường thấy hai loại có nguồn 3.3V và 5V.  
+
+5. Arduino Mega  
+Chân số lên đến 64, 14 chân có thể phát PWM, 4 cổng truyền tiếp cùng kích thước khá lớn 5x10cm.  
+
+6. Arduino Leonardo  
+Là board không có cổng nối USB dùng lập trình. Được thiết kế tại một chip nhỏ điều khiển. Kết nối qua COM ảo và có thể kết nối với chuột và bàn phím.  
+  
+7 Arduino LilyPad  
+Board mạch Lily Pad Arduino là một công nghệ dệt điện tử có thể đeo được được mở rộng bởi Leah Sang Buechley, và được thiết kế một cách cẩn thận bởi dòng Lea Leah và SparkFun. Mỗi board được thiết kế một cách tưởng tượng với các miếng kết nối khổng lồ & một mặt sau mịn màng để cho chúng được khâu vào quần áo bằng chỉ . Arduino này cũng bao gồm I / O, nguồn và cả board cảm biến được chế tạo đặc biệt cho hàng dệt may điện tử.  
+
+8 Arduino RedBoard  
+Board mạch RedBoard Arduino có thể được lập trình bằng cáp USB Mini-B bằng Arduino IDE. Nó sẽ hoạt động trên Windows 8 mà không phải sửa đổi cài đặt bảo mật của bạn. Nó không đổi do chip USB hoặc FTDI chúng tôi sử dụng và nó hoàn toàn phẳng ở mặt sau. Tạo nó rất đơn giản để sử dụng trong thiết kế dự án. Chỉ cần cắm board, chọn tùy chọn menu để chọn Arduino UNO và bạn đã sẵn sàng để tải lên chương trình. Bạn có thể điều khiển RedBoard qua cáp USB bằng giắc cắm thùng.  
 
 # 3. Kết quả thu được
 
