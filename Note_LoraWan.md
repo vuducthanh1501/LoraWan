@@ -430,6 +430,34 @@ Board mạch Lily Pad Arduino là một công nghệ dệt điện tử có th�
 8. Arduino RedBoard  
 Board mạch RedBoard Arduino có thể được lập trình bằng cáp USB Mini-B bằng Arduino IDE. Nó sẽ hoạt động trên Windows 8 mà không phải sửa đổi cài đặt bảo mật của bạn. Nó không đổi do chip USB hoặc FTDI chúng tôi sử dụng và nó hoàn toàn phẳng ở mặt sau. Tạo nó rất đơn giản để sử dụng trong thiết kế dự án. Chỉ cần cắm board, chọn tùy chọn menu để chọn Arduino UNO và bạn đã sẵn sàng để tải lên chương trình. Bạn có thể điều khiển RedBoard qua cáp USB bằng giắc cắm thùng.  
 
+### Mạch Thu Phát RF Lora SX1278 433Mhz Ra-02 
+
+Mạch thu phát RF Lora SX1278 433Mhz Ra-02 sử dụng chip SX1278 của nhà sản xuất SEMTECH chuẩn giao tiếp LORA (Long Range), chuẩn LORA mang đến hai yếu tố quan trọng là tiết kiệm năng lượng và khoảng cách phát siêu xa ( Ultimate long range wireless solution), ngoài ra nó còn có khả năng cấu hình để tạo thành mạng truyền nhận nên hiện tại được phát triển và sử dụng rất nhiều trong các nghiên cứu về IoT.  
+
+**THÔNG SỐ MẠCH THU PHÁT RF LORA SX1278**  
+- IC chính: SX1278 từ SEMTECH. 
+- LoRaTM spread spectrum communication 
+- +20dBm – 10mW. Stable RF output power when input voltage changed 
+- Half-duplex SPI communication 
+- Programmable bit rate can reach to 300kbps 
+- Support FSK, GFSK, MSK, GMSK, LoRaTM and OOK Modulation Mode 
+- 127dB RSSI wave range. 
+- Automatically detect RF signal, CAD mode and super high speed AFC 
+- With CRC 256 bytes data engine 
+- Half hole (castellated hole) SMD package 
+- With metal shielding case 
+- Pin pitch: 2.0mm 
+- Certification: FCC/CE 
+- Wireless Standard: 433MHz 
+- Frequency range: 420 – 450MHz 
+- Port: SPI/GPIO 
+- Operating Voltage: 1.8 – 3.7V, default 3.3V 
+- Working Current: 
+- receive: less than 10.8mA(LnaBoost closed, Band 1) 
+- transmit: less than 120mA(+20dBm) 
+- Sleep model: 0.2uA 
+- Working temperature: -40- +85 degree. 
+
 # 3. Kết quả thu được
 
 
