@@ -407,27 +407,35 @@ Phần mềm để lập trình cho mạch Arduino là phần mềm IDE.
 #### Các loại Board Arduino phổ biến 
 
 1. Arduino Uno  
+
 Đây chính là loại board đơn giản nhất nên rất phù hợp với những người mới bắt đầu tìm hiểu về lĩnh vực này. Dữ liệu số bao gồm 14 chân, đầu vào gồm 6 chân 5V, khả năng phân giải là 1024 mức, tốc độ 16MHz, điện áp từ 7V đến 12V. Kích thước của Board này là 5,5x7cm.  
 
-2. Arduino Micro
+2. Arduino Micro  
+
 Bao gồm có đến 20 chân, trong đó có 7 chân có thể phát PWM. Loại này có thiết kế khá nhỏ gọn, kích thước chỉ 5x2cm.  
 
 3. Arduino Nano  
+
 Có thể nói đây chính là loại board có kích thước nhỏ nhất chỉ 2x4cm, việc lắp đặt được thực hiện dễ dàng.  
 
 4. Arduino Pro  
+
 Đây là một thiết kế mới mẻ khi chân số không có sẵn, tùy vào số chân bạn sử dụng để gắn trực tiếp và giúp tiết kiệm được khoảng không lớn, ta thường thấy hai loại có nguồn 3.3V và 5V.  
 
 5. Arduino Mega  
+
 Chân số lên đến 64, 14 chân có thể phát PWM, 4 cổng truyền tiếp cùng kích thước khá lớn 5x10cm.  
 
 6. Arduino Leonardo  
+
 Là board không có cổng nối USB dùng lập trình. Được thiết kế tại một chip nhỏ điều khiển. Kết nối qua COM ảo và có thể kết nối với chuột và bàn phím.  
   
 7 Arduino LilyPad  
+
 Board mạch Lily Pad Arduino là một công nghệ dệt điện tử có thể đeo được được mở rộng bởi Leah Sang Buechley, và được thiết kế một cách cẩn thận bởi dòng Lea Leah và SparkFun. Mỗi board được thiết kế một cách tưởng tượng với các miếng kết nối khổng lồ & một mặt sau mịn màng để cho chúng được khâu vào quần áo bằng chỉ . Arduino này cũng bao gồm I / O, nguồn và cả board cảm biến được chế tạo đặc biệt cho hàng dệt may điện tử.  
 
 8 Arduino RedBoard  
+
 Board mạch RedBoard Arduino có thể được lập trình bằng cáp USB Mini-B bằng Arduino IDE. Nó sẽ hoạt động trên Windows 8 mà không phải sửa đổi cài đặt bảo mật của bạn. Nó không đổi do chip USB hoặc FTDI chúng tôi sử dụng và nó hoàn toàn phẳng ở mặt sau. Tạo nó rất đơn giản để sử dụng trong thiết kế dự án. Chỉ cần cắm board, chọn tùy chọn menu để chọn Arduino UNO và bạn đã sẵn sàng để tải lên chương trình. Bạn có thể điều khiển RedBoard qua cáp USB bằng giắc cắm thùng.  
 
 # 3. Kết quả thu được
