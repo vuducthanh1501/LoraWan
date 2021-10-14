@@ -461,7 +461,9 @@ Mạch thu phát RF Lora SX1278 433Mhz Ra-02 sử dụng chip SX1278 của nhà 
 # 3. Kết quả thu được
 
 
-# Các kiến thức được tìm hiểu tại group: [Easy LoRa - IoTThinks.com](https://www.facebook.com/groups/iotthinks)
+# Tài liệu tham khảo 
+
+[1] Các kiến thức được tìm hiểu tại group: [Easy LoRa - IoTThinks.com](https://www.facebook.com/groups/iotthinks)
 
 
 
